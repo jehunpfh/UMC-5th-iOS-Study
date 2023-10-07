@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kc1-Md-2cD">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -14,17 +14,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="_thWeekBeforeStudyMission" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LED-nc-eIm">
-                                <rect key="frame" x="10" y="167" width="394" height="58.666666666666657"/>
+                                <rect key="frame" x="10" y="206" width="410" height="74.666666666666686"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qq6-LP-xbo" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                <rect key="frame" x="9.9999999999999929" y="235.66666666666663" width="114.33333333333331" height="118"/>
+                                <rect key="frame" x="10" y="290.66666666666669" width="119" height="149"/>
                                 <color key="backgroundColor" red="0.57254901960000004" green="0.73725490199999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -38,7 +38,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AxB-9Q-CTE" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                <rect key="frame" x="289.66666666666669" y="235.66666666666663" width="114.33333333333331" height="118"/>
+                                <rect key="frame" x="301" y="290.66666666666669" width="119" height="149"/>
                                 <color key="backgroundColor" red="0.57254901960000004" green="0.73725490199999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -52,7 +52,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ii7-ih-y4b" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                <rect key="frame" x="150" y="235.66666666666663" width="114" height="118"/>
+                                <rect key="frame" x="155.66666666666666" y="290.66666666666669" width="118.66666666666666" height="149"/>
                                 <color key="backgroundColor" red="0.57254901960000004" green="0.73725490199999999" blue="0.89411764709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -66,7 +66,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7a-jB-wds" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                <rect key="frame" x="10" y="562" width="394" height="88.333333333333371"/>
+                                <rect key="frame" x="10" y="653" width="410" height="112"/>
                                 <color key="backgroundColor" red="0.43137254899999999" green="0.30196078430000001" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -79,37 +79,37 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lbS-RU-uOw" userLabel="NavigationBarView">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="147.33333333333334"/>
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="186.33333333333334"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="우리집▼" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u48-hU-Z4u">
-                                        <rect key="frame" x="10.000000000000014" y="30" width="248.33333333333337" height="25.666666666666671"/>
+                                        <rect key="frame" x="10" y="69" width="258" height="25.666666666666671"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="21"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.grid.2x2" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="neS-ec-1yr">
-                                        <rect key="frame" x="300.33333333333331" y="31.666666666666657" width="20.333333333333314" height="17.333333333333343"/>
+                                        <rect key="frame" x="316.33333333333331" y="70.666666666666657" width="20.333333333333314" height="17.333333333333343"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="neS-ec-1yr" secondAttribute="height" multiplier="1:1" id="Dd9-4w-jb7"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qUm-kE-Ylb">
-                                        <rect key="frame" x="381" y="31.666666666666668" width="23" height="20.999999999999982"/>
+                                        <rect key="frame" x="397" y="70.666666666666657" width="23" height="21.000000000000014"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="qUm-kE-Ylb" secondAttribute="height" multiplier="1:1" id="E0u-D2-x8g"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bell" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cQN-tE-yGw">
-                                        <rect key="frame" x="340.66666666666669" y="30.666666666666664" width="20.333333333333314" height="19.333333333333336"/>
+                                        <rect key="frame" x="356.66666666666669" y="69.666666666666671" width="20.333333333333314" height="19.333333333333329"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="cQN-tE-yGw" secondAttribute="height" multiplier="1:1" id="oQa-Qv-oiF"/>
                                         </constraints>
                                     </imageView>
                                     <searchBar contentMode="redraw" placeholder="찾는 맛집 이름이 뭐예요?" translatesAutoresizingMaskIntoConstraints="NO" id="RSx-Q2-fEI">
-                                        <rect key="frame" x="10" y="65.666666666666657" width="394" height="71.666666666666657"/>
+                                        <rect key="frame" x="10" y="104.66666666666666" width="410" height="71.666666666666657"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
                                             <outlet property="delegate" destination="BYZ-38-t0r" id="5L4-xc-zjE"/>
@@ -133,16 +133,16 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lAd-9t-Uba">
-                                <rect key="frame" x="10" y="363.66666666666669" width="394" height="188.33333333333331"/>
+                                <rect key="frame" x="10" y="449.66666666666669" width="410" height="193.33333333333331"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="rKI-D9-V1r">
-                                        <rect key="frame" x="8" y="8" width="378" height="34.333333333333336"/>
+                                        <rect key="frame" x="8" y="8" width="394" height="34.333333333333336"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="대용량특가" translatesAutoresizingMaskIntoConstraints="NO" id="Hlq-nk-OV0">
                                                 <rect key="frame" x="0.0" y="0.0" width="236" height="34.333333333333336"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SzP-Fe-SFP">
-                                                <rect key="frame" x="338.33333333333331" y="0.0" width="39.666666666666686" height="34.333333333333336"/>
+                                                <rect key="frame" x="354.33333333333331" y="0.0" width="39.666666666666686" height="34.333333333333336"/>
                                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="chevron.right" catalog="system"/>
@@ -150,10 +150,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="kJj-I4-QpI">
-                                        <rect key="frame" x="8" y="52.333333333333314" width="378" height="59"/>
+                                        <rect key="frame" x="8" y="52.333333333333314" width="394" height="61.666666666666657"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fzb-bu-rRt" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="59" height="59"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="61.666666666666664" height="61.666666666666664"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Fzb-bu-rRt" secondAttribute="height" multiplier="1:1" id="X8q-zS-C14"/>
                                                 </constraints>
@@ -168,7 +168,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Nf-vV-EQs" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                                <rect key="frame" x="79.666666666666671" y="0.0" width="59.000000000000014" height="59"/>
+                                                <rect key="frame" x="83" y="0.0" width="61.666666666666657" height="61.666666666666664"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="4Nf-vV-EQs" secondAttribute="height" multiplier="1:1" id="FhT-Vb-PM8"/>
                                                 </constraints>
@@ -183,7 +183,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66Q-bz-3xK" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                                <rect key="frame" x="159.33333333333334" y="0.0" width="59.333333333333343" height="59"/>
+                                                <rect key="frame" x="166.33333333333334" y="0.0" width="61.333333333333343" height="61.666666666666664"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="66Q-bz-3xK" secondAttribute="height" multiplier="1:1" id="hKM-1e-mcZ"/>
                                                 </constraints>
@@ -198,7 +198,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbo-Br-WWo" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                                <rect key="frame" x="239.33333333333331" y="0.0" width="59" height="59"/>
+                                                <rect key="frame" x="249.33333333333329" y="0.0" width="61.666666666666657" height="61.666666666666664"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Fbo-Br-WWo" secondAttribute="height" multiplier="1:1" id="fDI-JF-JP6"/>
                                                 </constraints>
@@ -213,7 +213,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5E-Ot-WNh" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                                <rect key="frame" x="319" y="0.0" width="59" height="59"/>
+                                                <rect key="frame" x="332.66666666666669" y="0.0" width="61.333333333333314" height="61.666666666666664"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="W5E-Ot-WNh" secondAttribute="height" multiplier="1:1" id="tnP-nh-9gl"/>
                                                 </constraints>
@@ -230,10 +230,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dDk-Wf-h9I">
-                                        <rect key="frame" x="8" y="121.33333333333331" width="378" height="59"/>
+                                        <rect key="frame" x="8" y="123.99999999999993" width="394" height="61.333333333333329"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6z-Ny-cWC" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="59" height="59"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="61.666666666666664" height="61.333333333333336"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="c6z-Ny-cWC" secondAttribute="height" multiplier="1:1" id="8a3-n0-YiL"/>
                                                 </constraints>
@@ -248,7 +248,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NN1-Yi-sVa" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                                <rect key="frame" x="79.666666666666671" y="0.0" width="59.000000000000014" height="59"/>
+                                                <rect key="frame" x="83" y="0.0" width="61.666666666666657" height="61.333333333333336"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="NN1-Yi-sVa" secondAttribute="height" multiplier="1:1" id="YgL-Ek-J1w"/>
                                                 </constraints>
@@ -263,7 +263,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSR-46-CiJ" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                                <rect key="frame" x="159.33333333333334" y="0.0" width="59.333333333333343" height="59"/>
+                                                <rect key="frame" x="166.33333333333334" y="0.0" width="61.333333333333343" height="61.333333333333336"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="qSR-46-CiJ" secondAttribute="height" multiplier="1:1" id="LuH-J2-ev1"/>
                                                 </constraints>
@@ -278,7 +278,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kK4-Zm-nA9" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                                <rect key="frame" x="239.33333333333331" y="0.0" width="59" height="59"/>
+                                                <rect key="frame" x="249.33333333333329" y="0.0" width="61.666666666666657" height="61.333333333333336"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="kK4-Zm-nA9" secondAttribute="height" multiplier="1:1" id="9Gm-Iz-Cp7"/>
                                                 </constraints>
@@ -293,7 +293,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aw-df-jSf" customClass="BorderCustomUIBtn" customModule="_thWeekBeforeStudyMission" customModuleProvider="target">
-                                                <rect key="frame" x="319" y="0.0" width="59" height="59"/>
+                                                <rect key="frame" x="332.66666666666669" y="0.0" width="61.333333333333314" height="61.333333333333336"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="2aw-df-jSf" secondAttribute="height" multiplier="1:1" id="jTj-fE-uu3"/>
                                                 </constraints>
@@ -392,7 +392,7 @@
             <objects>
                 <viewController id="atg-GA-hEp" customClass="SearchVC" customModule="_thWeekBeforeStudyMission" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="14P-Ki-jZh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="XpS-lO-vYd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -409,7 +409,7 @@
             <objects>
                 <viewController id="aFK-Vx-ULM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KJg-KP-rkK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="ZUY-Eu-AuQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -425,7 +425,7 @@
             <objects>
                 <viewController id="S6z-cg-6CJ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sSC-kG-nNE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="tIs-RX-pbc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -441,7 +441,7 @@
             <objects>
                 <viewController id="ift-aa-iMg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qjg-sb-Jvo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="ukD-dN-Efd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
