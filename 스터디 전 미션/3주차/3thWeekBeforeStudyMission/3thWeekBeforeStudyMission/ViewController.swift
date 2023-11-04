@@ -36,6 +36,7 @@ class ViewController: UIViewController {
     //MARK: - helper func
     private func configure() {
         tableView.dataSource = self
+//        tableView.delegate = self
         
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: customNaviLeftBarItem())
         
@@ -64,7 +65,10 @@ class ViewController: UIViewController {
 
 
 extension ViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("⭐️ Index \(indexPath.row)")
+        print("\(indexPath.section)")
+    }
 }
 
 extension ViewController: UITableViewDataSource {
@@ -76,6 +80,7 @@ extension ViewController: UITableViewDataSource {
         guard let cell: PostCell = tableView.dequeueReusableCell(withIdentifier: "PostCell", for: indexPath) as? PostCell else {
             return UITableViewCell()
         }
+        
         cell.titleLabel.text = postList[indexPath.row].title
         cell.addressLabel.text  = postList[indexPath.row].address
         cell.priceLabel.text = postList[indexPath.row].price
