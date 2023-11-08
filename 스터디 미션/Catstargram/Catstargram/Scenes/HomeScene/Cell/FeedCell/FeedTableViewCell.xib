@@ -62,6 +62,7 @@
                         <rect key="frame" x="45" y="586" width="25" height="25"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="25" id="6bw-rc-b8f"/>
+                            <constraint firstAttribute="width" secondItem="6WJ-uM-QhH" secondAttribute="height" multiplier="1:1" id="nlW-6L-zGi"/>
                         </constraints>
                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                         <state key="normal" image="ic_home_comment"/>
@@ -70,6 +71,7 @@
                         <rect key="frame" x="80" y="586" width="25" height="25"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="25" id="cHS-IP-REj"/>
+                            <constraint firstAttribute="width" secondItem="QOp-y8-QeH" secondAttribute="height" multiplier="1:1" id="lTs-qd-778"/>
                         </constraints>
                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                         <state key="normal" image="ic_home_send"/>
@@ -136,9 +138,7 @@
                     <constraint firstItem="CuV-7B-XC5" firstAttribute="leading" secondItem="7Qc-KD-IFR" secondAttribute="leading" id="jKR-7E-Xi1"/>
                     <constraint firstItem="CuV-7B-XC5" firstAttribute="trailing" secondItem="oXd-k1-baU" secondAttribute="trailing" id="k20-u8-skN"/>
                     <constraint firstItem="bPl-NA-QZ0" firstAttribute="centerY" secondItem="NBs-4u-W7f" secondAttribute="centerY" id="l4k-vw-6Wv"/>
-                    <constraint firstItem="QOp-y8-QeH" firstAttribute="width" secondItem="QOp-y8-QeH" secondAttribute="height" multiplier="1:1" id="lTs-qd-778"/>
                     <constraint firstItem="bPl-NA-QZ0" firstAttribute="leading" secondItem="NBs-4u-W7f" secondAttribute="trailing" constant="10" id="nEO-rY-IhU"/>
-                    <constraint firstItem="6WJ-uM-QhH" firstAttribute="width" secondItem="6WJ-uM-QhH" secondAttribute="height" multiplier="1:1" id="nlW-6L-zGi"/>
                     <constraint firstItem="iEs-hS-oOU" firstAttribute="height" secondItem="Iud-NO-s9S" secondAttribute="height" multiplier="1.36" id="p7l-6E-1SV"/>
                     <constraint firstItem="iEs-hS-oOU" firstAttribute="centerY" secondItem="Iud-NO-s9S" secondAttribute="centerY" id="psr-wn-py6"/>
                     <constraint firstItem="iEs-hS-oOU" firstAttribute="trailing" secondItem="CuV-7B-XC5" secondAttribute="trailing" id="tUe-9B-Hwm"/>
