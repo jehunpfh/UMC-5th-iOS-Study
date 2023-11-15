@@ -136,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1011.4503816793892" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="993" y="-27"/>
         </scene>
         <!--CartVC-->
         <scene sceneID="rae-yr-hE5">
@@ -209,7 +209,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C4x-Zt-IIc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1937" y="-17"/>
+            <point key="canvasLocation" x="1744" y="-27"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="z0A-w8-Kjd">

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C66FF052AFAFE6100C787D1 /* CustomStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66FF042AFAFE6100C787D1 /* CustomStack.swift */; };
 		9C66FF072AFB08FD00C787D1 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66FF062AFB08FD00C787D1 /* CartVC.swift */; };
 		9CF1EBA42AFA6AF100B6A239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF1EBA32AFA6AF100B6A239 /* AppDelegate.swift */; };
 		9CF1EBA62AFA6AF100B6A239 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF1EBA52AFA6AF100B6A239 /* SceneDelegate.swift */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9C66FF042AFAFE6100C787D1 /* CustomStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStack.swift; sourceTree = "<group>"; };
 		9C66FF062AFB08FD00C787D1 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
 		9CF1EBA02AFA6AF100B6A239 /* 5thWeekBeforeStudyMission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5thWeekBeforeStudyMission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF1EBA32AFA6AF100B6A239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 				9CF1EBAC2AFA6AF200B6A239 /* Assets.xcassets */,
 				9CF1EBAE2AFA6AF200B6A239 /* LaunchScreen.storyboard */,
 				9CF1EBB12AFA6AF200B6A239 /* Info.plist */,
-				9C66FF042AFAFE6100C787D1 /* CustomStack.swift */,
 			);
 			path = 5thWeekBeforeStudyMission;
 			sourceTree = "<group>";
@@ -265,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CF1EBA82AFA6AF100B6A239 /* ViewController.swift in Sources */,
-				9C66FF052AFAFE6100C787D1 /* CustomStack.swift in Sources */,
 				9CF1EBA42AFA6AF100B6A239 /* AppDelegate.swift in Sources */,
 				9C66FF072AFB08FD00C787D1 /* CartVC.swift in Sources */,
 				9CF1EBA62AFA6AF100B6A239 /* SceneDelegate.swift in Sources */,
