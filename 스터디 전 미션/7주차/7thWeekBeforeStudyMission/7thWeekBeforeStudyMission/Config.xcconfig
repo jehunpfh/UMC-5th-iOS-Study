@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  7thWeekBeforeStudyMission
+//
+//  Created by 김제훈 on 11/20/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+KAKAO_NATIVE_APP_KEY=b885198991c2567a51455ac7d31416af
